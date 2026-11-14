@@ -45,7 +45,6 @@
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "clean": "del-cli lib",
-    "prepare": "husky && bob build",
     "lint:fix": "eslint \"**/*.{js,ts,tsx}\" --fix",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "validate": "yarn lint && yarn typecheck && yarn test && yarn build",
